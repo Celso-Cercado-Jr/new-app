@@ -10,7 +10,6 @@ body {
 
 p {
     font-size: 20px;
-    text-align: center;
 }
 
 p.small {
@@ -23,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ffffff;
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -74,7 +73,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #{{ site.color.primary }};
+    background-color: #fff;
 }
 
 .img-centered {
@@ -84,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #ffffff;
+    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -99,6 +98,7 @@ header img {
 
 header .intro-text .name {
     display: block;
+    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -181,8 +181,8 @@ section h2 {
 }
 
 section.success {
-    color: #000000;
-    background: #F0F8FF;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -416,7 +416,7 @@ footer .footer-below {
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: transparent;
     cursor: pointer;
 }
 

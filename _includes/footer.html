@@ -4,8 +4,11 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p> Ottawa, Ontario, Canada
+                        <h3>{{ site.footer.location }}</h3>
+                        <p>
+                            {% for adress in site.address %}
+                                {{ adress.line }} <br>
+		                    {% endfor %}
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
@@ -29,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Designed & Built by Celso Cercado Jr.
+                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
                     </div>
                 </div>
             </div>
