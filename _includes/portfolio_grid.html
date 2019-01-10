@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
@@ -17,8 +17,7 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>                    
-                {% endfor %}
+                        </a>
             </div>
         </div>
     </section>
