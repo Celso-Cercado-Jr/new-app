@@ -10,11 +10,17 @@
            </div>
            <div class="row">
 
-               <div class="col-lg-8 col-lg-offset-2 text-center">
-                   <a href="mailto:chemcercado@gmail.com" class="btn btn-lg btn-outline">
-                       <i class="fa fa-envelope"></i> Get In Touch
-                   </a>
-               </div>
+                   <div class="col-sm-4 portfolio-item">
+                       <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                           <div class="caption">
+                               <div class="caption-content">
+                                   <i class="fa fa-search-plus fa-3x"></i>
+                               </div>
+                           </div>
+                           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                       </a>
+                   </div>
+
            </div>
        </div>
    </section>
