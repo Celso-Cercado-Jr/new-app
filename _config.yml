@@ -31,6 +31,7 @@ color:
   secondary-dark: 233140 #A2122F
 
   plugins:
+    - jekyll-feed
     - jekyll-seo-tag
 
 # Footer settings
