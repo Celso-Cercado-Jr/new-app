@@ -1,7 +1,7 @@
 # Site settings
-title: Freelancer
+title: Celso-Cercado-Jr
 email: your-email@domain.com
-url: https://example.github.io
+url: https://celsocercadojr.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
@@ -42,13 +42,13 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://www.facebook.com/celso.cercado
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Celso-Cercado-Jr
 
 # Postal address (add as many lines as necessary)
 address:
