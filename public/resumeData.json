@@ -1,0 +1,120 @@
+{
+  "main": {
+    "name":"Celso Cercado",
+    "occupation":"(Actively Seeking Opportunities)",
+    "image":"profile.jpg",
+    "bio":"I am Computer Engineer, I like to develop extraordinary websites and applications. I enjoy constantly learning and improving my skills with the latest many technologies that power the web.",
+    "contactmessage":"My inbox is always open.Just say hi and I will try my best to answer your email. ",
+    "email": "celsocercado@gmail.com",
+    "phone": "613-600-3096",
+    "address":{
+      "city":"(Ottawa)",
+      "state":"(Ontario)"
+    },
+    "website": "https://celsocercadojr.com/",
+    "resumedownload":"https://celsocercadojr.com/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/celso.cercado",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/tbakerx",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/celso-cercado-jr-952634160/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/cjcercado/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Celso-Cercado-Jr",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Recent graduate equipped with an Advanced Diploma in Computer Engineering with a concentration in Computing Science. Extensive knowledge on Java, JavaScript, C, C++, and MySQL. ",
+
+
+    "education":[
+      {
+        "school":"Algonquin College - Ottawa, ON, Canada",
+        "degree":"Advanced Diploma - Computing Science",
+        "graduated":"2014-2018",
+        "description":"Recent graduate equipped with an Advanced Diploma in Computer Engineering with a concentration in Computing Science. Extensive knowledge on Java, JavaScript, C, C++, and MySQL"
+      },
+      {
+        "school":"Guimaras State College - Philippines",
+        "degree":"Bachelor of Information Technology",
+        "graduated":"2009-2010",
+        "description":"I have finish one year before we moved in Canada. Learned basic computer languages such as Java"
+      }
+    ],
+
+    "skills":[
+      {
+        "name":"JavaScript",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"C++",
+        "level":"50%"
+      },
+      {
+        "name":"C",
+        "level":"60%"
+      },
+      {
+        "name": "C#",
+        "level": "65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Assumption Parish Church",
+        "category":"Website that I made for Parish Church",
+        "image":"church.png",
+        "url":"http://assumptionparishottawa.com/"
+      },
+      {
+        "title":"My website using Jekyll Template",
+        "category":"Website I built using Jekyll",
+        "image":"pw.jpg",
+        "url":"https://celsocercadojr.com/"
+      },
+      {
+        "title":"New Website using React",
+        "category":"I upgraded my website using React",
+        "image":"rw.png",
+        "url":"https://celsocercadojr.com/"
+      }
+    ]
+  }
+}
