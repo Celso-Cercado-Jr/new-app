@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Celso-Cercado-Jr.github.io/new-app",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.6.0",
